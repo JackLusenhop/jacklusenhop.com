@@ -78,7 +78,7 @@ header {
 }
 
 #link-instagram {
-  background: url(images/instagram.png);
+  background: url(images/black-instagram.png);
   width: 40px;
   height: 40px;
   background-size: cover;
@@ -86,7 +86,7 @@ header {
 }
 
 #link-snapchat {
-  background: url(images/snapchat.svg);
+  background: url(images/black-snapchat.png);
   width: 40px;
   height: 40px;
   background-size: cover;
