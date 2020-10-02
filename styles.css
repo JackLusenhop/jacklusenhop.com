@@ -24,7 +24,7 @@ header {
 }
 
 .scrolling {
-  background-color: #ff6b6b;
+  background-color: rgb(255, 107, 107, 0.7);
 }
 
 .header__logo {
@@ -63,6 +63,15 @@ header {
 .about {
   padding: 3rem 4rem;
 }
+
+.about-container {
+  overflow: hidden;
+  background-color: rgb(244, 236, 214);
+  padding: 5rem;
+  width: 25em;
+  margin: auto;
+}
+
 .section-title {
   font-size: 2rem;
   margin-bottom: 10px;
@@ -70,7 +79,7 @@ header {
 
 .footer {
   padding: 2rem 2.5rem;
-  background-color: #ff6b6b;
+  background-color: rgb(255, 107, 107, 0.7);
 }
 
 .footer-contacts-links {
@@ -91,4 +100,14 @@ header {
   height: 40px;
   background-size: cover;
   display: inline-block;
+}
+
+@media (max-width: 550px) {
+  .about {
+    padding: 0;
+  }
+
+  .about-container {
+    width: auto;
+  }
 }
