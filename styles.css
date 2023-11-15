@@ -24,7 +24,7 @@ header {
 }
 
 .scrolling {
-  background-color: rgb(255, 107, 107, 0.7);
+  background-color: #29ADB2;
 }
 
 .header__logo {
@@ -40,7 +40,7 @@ header {
 }
 
 .hero {
-  background: url("./images/silhouette-of-mountains-1323550.jpg");
+  background: url("./images/NubbleLighthouse.jpeg");
   height: 100vh;
   width: 100vw;
   background-position: center;
@@ -68,7 +68,7 @@ header {
   overflow: hidden;
   background-color: rgb(244, 236, 214);
   padding: 5rem;
-  width: 25em;
+  width: 50em;
   margin: auto;
 }
 
@@ -77,9 +77,28 @@ header {
   margin-bottom: 10px;
 }
 
+.projects {
+  padding: 3rem 4rem;
+  background-color: #C5E898;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.project-box {
+  border-radius: 25px;
+  width: 30em;
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(244, 236, 214);
+}
+
 .footer {
   padding: 2rem 2.5rem;
-  background-color: rgb(255, 107, 107, 0.7);
+  background-color: #29ADB2;
 }
 
 .footer-contacts-links {
@@ -102,12 +121,24 @@ header {
   display: inline-block;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 900px) {
   .about {
     padding: 0;
   }
 
   .about-container {
+    width: auto;
+  }
+  .projects {
+    padding: 10px;
+    padding-top: 1em;
+  }
+
+  .projects-container {
+    width: auto;
+  }
+
+  .project-box {
     width: auto;
   }
 }
