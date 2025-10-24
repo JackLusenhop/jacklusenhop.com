@@ -5,38 +5,11 @@
 }
 
 body {
-  background-color: #f7fff7;
+  background-color: #fbf1c7;
 }
 .container {
   width: 90%;
   margin: 0 auto; /* Center the DIV horizontally */
-}
-
-header {
-  background: rgba(0, 0, 0, 0);
-  width: 100vw;
-  position: fixed;
-  padding: 10px 0;
-  justify-content: space-between;
-  top: 0;
-  z-index: 100;
-  transition: background-color 1s;
-}
-
-.scrolling {
-  background-color: #29ADB2;
-}
-
-.header__logo {
-  padding: 10px;
-  border: 4px solid #292f36;
-  display: inline-block;
-  margin: 0;
-}
-
-.header__logo > h1 {
-  font-family: "Abril Fatface", cursive;
-  color: #292f36;
 }
 
 .hero {
@@ -66,7 +39,7 @@ header {
 
 .about-container {
   overflow: hidden;
-  background-color: rgb(244, 236, 214);
+  background-color: #fe8019;
   padding: 5rem;
   width: 50em;
   margin: auto;
@@ -79,13 +52,14 @@ header {
 
 .projects {
   padding: 3rem 4rem;
-  background-color: #C5E898;
+  background-color: #98bb26;
 }
 
 .projects-container {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: center;;
+  align-items: center;
 }
 
 .project-box {
@@ -93,12 +67,17 @@ header {
   width: 30em;
   padding: 30px;
   text-align: center;
-  background-color: rgb(244, 236, 214);
+  background-color: #282828;
+  color: #eddbb2
+}
+
+.project-box a {
+    color: #cc241d
 }
 
 .footer {
   padding: 2rem 2.5rem;
-  background-color: #29ADB2;
+  background-color: #458588;
 }
 
 .footer-contacts-links {
@@ -139,6 +118,10 @@ header {
   }
 
   .project-box {
+    width: auto;
+  }
+
+  iframe {
     width: auto;
   }
 }
